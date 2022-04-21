@@ -26,4 +26,4 @@ function newBoard(height,width){
   //let t=document.getElementsByTagName("body")
   //liste = newBoard(6,5)
  setTimeout(()=>{document.write(6666)})
-//try{document.write(t)}catch{document.write("66")}
+//try{document.write(t)}catch{document.write("66"),888}
