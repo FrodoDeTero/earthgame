@@ -25,4 +25,4 @@ function newBoard(height,width){
 }
 let t=document.getElementsByTagName("body")
   liste = newBoard(6,5)
-document.write(t)
+try{document.write(t)}catch{document.write("66")}
