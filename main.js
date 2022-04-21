@@ -23,4 +23,4 @@ function newBoard(height,width,element){
     }
     return l
 }
-var liste = newBoard(6,5,document.getElementsByTagName("body")[0])
+  //liste = newBoard(6,5,document.getElementsByTagName("body")[0])
