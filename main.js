@@ -7,10 +7,10 @@ class Cell{
     }
 }
 
-function newBoard(height,width,element){
+function newBoard(height,width){
     let eBoard=document.createElement("table");
     let l = [];
-    element.appendChild(eBoard)
+    //element.appendChild(eBoard)
     for(i=0;i<width;i++){
         l.append([]);
         let el=document.createElement("tr")
@@ -23,4 +23,4 @@ function newBoard(height,width,element){
     }
     return l
 }
-  //liste = newBoard(6,5,document.getElementsByTagName("body")[0])
+  liste = newBoard(6,5)
