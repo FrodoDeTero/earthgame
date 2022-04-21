@@ -23,7 +23,7 @@ function newBoard(height,width){
     }
     return l
 }
-let t=document.getElementsByTagName("body")
-  liste = newBoard(6,5)
-document.write(6666)
-try{document.write(t)}catch{document.write("66")}
+  //let t=document.getElementsByTagName("body")
+  //liste = newBoard(6,5)
+   document.write(6666)
+//try{document.write(t)}catch{document.write("66")}
